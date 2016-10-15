@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE339D9C1DA4C7F500FC88B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE339D9B1DA4C7F500FC88B7 /* main.m */; };
+		AE339D9F1DA4C7F500FC88B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE339D9E1DA4C7F500FC88B7 /* AppDelegate.m */; };
+		AE339DA21DA4C7F500FC88B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE339DA11DA4C7F500FC88B7 /* ViewController.m */; };
+		AE339DA51DA4C7F500FC88B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE339DA31DA4C7F500FC88B7 /* Main.storyboard */; };
+		AE339DA71DA4C7F500FC88B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE339DA61DA4C7F500FC88B7 /* Assets.xcassets */; };
+		AE339DAA1DA4C7F500FC88B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE339DA81DA4C7F500FC88B7 /* LaunchScreen.storyboard */; };
+		AE339DC61DA4CA2500FC88B7 /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE339DC31DA4C8AD00FC88B7 /* libsqlcipher.a */; };
+		AE339DC91DA4CA3700FC88B7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE339DC81DA4CA3700FC88B7 /* Security.framework */; };
+		AE339DCB1DA4CBF500FC88B7 /* sqlcipher.db in Resources */ = {isa = PBXBuildFile; fileRef = AE339DCA1DA4CBF500FC88B7 /* sqlcipher.db */; };
+		AE339DCD1DA4CE5900FC88B7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE339DCC1DA4CE5900FC88B7 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE339DBA1DA4C8AD00FC88B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE339DB11DA4C8AC00FC88B7 /* sqlcipher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C0041981BFC382400ED2AD5;
+			remoteInfo = "SQLCipher iOS";
+		};
+		AE339DBC1DA4C8AD00FC88B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE339DB11DA4C8AC00FC88B7 /* sqlcipher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C0041B11BFC3B2200ED2AD5;
+			remoteInfo = "SQLCipher OSX";
+		};
+		AE339DBE1DA4C8AD00FC88B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE339DB11DA4C8AC00FC88B7 /* sqlcipher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C0041C31BFC3CC000ED2AD5;
+			remoteInfo = "SQLCipher tvOS";
+		};
+		AE339DC01DA4C8AD00FC88B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE339DB11DA4C8AC00FC88B7 /* sqlcipher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C0041D61BFC3E2500ED2AD5;
+			remoteInfo = "SQLCipher watchOS";
+		};
+		AE339DC21DA4C8AD00FC88B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE339DB11DA4C8AC00FC88B7 /* sqlcipher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = sqlcipher;
+		};
+		AE339DC41DA4CA0700FC88B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE339DB11DA4C8AC00FC88B7 /* sqlcipher.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = sqlcipher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE339D971DA4C7F500FC88B7 /* SqlCipherSeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqlCipherSeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE339D9B1DA4C7F500FC88B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE339D9D1DA4C7F500FC88B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE339D9E1DA4C7F500FC88B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE339DA01DA4C7F500FC88B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE339DA11DA4C7F500FC88B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE339DA41DA4C7F500FC88B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE339DA61DA4C7F500FC88B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE339DA91DA4C7F500FC88B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE339DAB1DA4C7F500FC88B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE339DB11DA4C8AC00FC88B7 /* sqlcipher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlcipher.xcodeproj; path = sqlcipher/sqlcipher.xcodeproj; sourceTree = "<group>"; };
+		AE339DC81DA4CA3700FC88B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AE339DCA1DA4CBF500FC88B7 /* sqlcipher.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sqlcipher.db; sourceTree = "<group>"; };
+		AE339DCC1DA4CE5900FC88B7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE339D941DA4C7F500FC88B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE339DCD1DA4CE5900FC88B7 /* libsqlite3.tbd in Frameworks */,
+				AE339DC91DA4CA3700FC88B7 /* Security.framework in Frameworks */,
+				AE339DC61DA4CA2500FC88B7 /* libsqlcipher.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE339D8E1DA4C7F500FC88B7 = {
+			isa = PBXGroup;
+			children = (
+				AE339DB11DA4C8AC00FC88B7 /* sqlcipher.xcodeproj */,
+				AE339D991DA4C7F500FC88B7 /* SqlCipherSeed */,
+				AE339D981DA4C7F500FC88B7 /* Products */,
+				AE339DC71DA4CA3700FC88B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE339D981DA4C7F500FC88B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE339D971DA4C7F500FC88B7 /* SqlCipherSeed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE339D991DA4C7F500FC88B7 /* SqlCipherSeed */ = {
+			isa = PBXGroup;
+			children = (
+				AE339D9D1DA4C7F500FC88B7 /* AppDelegate.h */,
+				AE339D9E1DA4C7F500FC88B7 /* AppDelegate.m */,
+				AE339DA01DA4C7F500FC88B7 /* ViewController.h */,
+				AE339DA11DA4C7F500FC88B7 /* ViewController.m */,
+				AE339DA31DA4C7F500FC88B7 /* Main.storyboard */,
+				AE339DA61DA4C7F500FC88B7 /* Assets.xcassets */,
+				AE339DA81DA4C7F500FC88B7 /* LaunchScreen.storyboard */,
+				AE339DAB1DA4C7F500FC88B7 /* Info.plist */,
+				AE339D9A1DA4C7F500FC88B7 /* Supporting Files */,
+			);
+			path = SqlCipherSeed;
+			sourceTree = "<group>";
+		};
+		AE339D9A1DA4C7F500FC88B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE339DCA1DA4CBF500FC88B7 /* sqlcipher.db */,
+				AE339D9B1DA4C7F500FC88B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE339DB21DA4C8AC00FC88B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE339DBB1DA4C8AD00FC88B7 /* SQLCipher.framework */,
+				AE339DBD1DA4C8AD00FC88B7 /* SQLCipher.framework */,
+				AE339DBF1DA4C8AD00FC88B7 /* SQLCipher.framework */,
+				AE339DC11DA4C8AD00FC88B7 /* SQLCipher.framework */,
+				AE339DC31DA4C8AD00FC88B7 /* libsqlcipher.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE339DC71DA4CA3700FC88B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE339DCC1DA4CE5900FC88B7 /* libsqlite3.tbd */,
+				AE339DC81DA4CA3700FC88B7 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE339D961DA4C7F500FC88B7 /* SqlCipherSeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE339DAE1DA4C7F500FC88B7 /* Build configuration list for PBXNativeTarget "SqlCipherSeed" */;
+			buildPhases = (
+				AE339D931DA4C7F500FC88B7 /* Sources */,
+				AE339D941DA4C7F500FC88B7 /* Frameworks */,
+				AE339D951DA4C7F500FC88B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE339DC51DA4CA0700FC88B7 /* PBXTargetDependency */,
+			);
+			name = SqlCipherSeed;
+			productName = SqlCipherSeed;
+			productReference = AE339D971DA4C7F500FC88B7 /* SqlCipherSeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE339D8F1DA4C7F500FC88B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Cafex-Development";
+				TargetAttributes = {
+					AE339D961DA4C7F500FC88B7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE339D921DA4C7F500FC88B7 /* Build configuration list for PBXProject "SqlCipherSeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE339D8E1DA4C7F500FC88B7;
+			productRefGroup = AE339D981DA4C7F500FC88B7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AE339DB21DA4C8AC00FC88B7 /* Products */;
+					ProjectRef = AE339DB11DA4C8AC00FC88B7 /* sqlcipher.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AE339D961DA4C7F500FC88B7 /* SqlCipherSeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AE339DBB1DA4C8AD00FC88B7 /* SQLCipher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLCipher.framework;
+			remoteRef = AE339DBA1DA4C8AD00FC88B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE339DBD1DA4C8AD00FC88B7 /* SQLCipher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLCipher.framework;
+			remoteRef = AE339DBC1DA4C8AD00FC88B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE339DBF1DA4C8AD00FC88B7 /* SQLCipher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLCipher.framework;
+			remoteRef = AE339DBE1DA4C8AD00FC88B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE339DC11DA4C8AD00FC88B7 /* SQLCipher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLCipher.framework;
+			remoteRef = AE339DC01DA4C8AD00FC88B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE339DC31DA4C8AD00FC88B7 /* libsqlcipher.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libsqlcipher.a;
+			remoteRef = AE339DC21DA4C8AD00FC88B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE339D951DA4C7F500FC88B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE339DAA1DA4C7F500FC88B7 /* LaunchScreen.storyboard in Resources */,
+				AE339DA71DA4C7F500FC88B7 /* Assets.xcassets in Resources */,
+				AE339DA51DA4C7F500FC88B7 /* Main.storyboard in Resources */,
+				AE339DCB1DA4CBF500FC88B7 /* sqlcipher.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE339D931DA4C7F500FC88B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE339DA21DA4C7F500FC88B7 /* ViewController.m in Sources */,
+				AE339D9F1DA4C7F500FC88B7 /* AppDelegate.m in Sources */,
+				AE339D9C1DA4C7F500FC88B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE339DC51DA4CA0700FC88B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlcipher;
+			targetProxy = AE339DC41DA4CA0700FC88B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE339DA31DA4C7F500FC88B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE339DA41DA4C7F500FC88B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE339DA81DA4C7F500FC88B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE339DA91DA4C7F500FC88B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE339DAC1DA4C7F500FC88B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/sqlcipher/src";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DSQLITE_HAS_CODEC";
+				OTHER_LDFLAGS = "$(BUILT_PRODUCTS_DIR)/libsqlcipher.a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE339DAD1DA4C7F500FC88B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/sqlcipher/src";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "-DSQLITE_HAS_CODEC";
+				OTHER_LDFLAGS = "$(BUILT_PRODUCTS_DIR)/libsqlcipher.a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE339DAF1DA4C7F500FC88B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SqlCipherSeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universal.example.SqlCipherSeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE339DB01DA4C7F500FC88B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SqlCipherSeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universal.example.SqlCipherSeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE339D921DA4C7F500FC88B7 /* Build configuration list for PBXProject "SqlCipherSeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE339DAC1DA4C7F500FC88B7 /* Debug */,
+				AE339DAD1DA4C7F500FC88B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE339DAE1DA4C7F500FC88B7 /* Build configuration list for PBXNativeTarget "SqlCipherSeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE339DAF1DA4C7F500FC88B7 /* Debug */,
+				AE339DB01DA4C7F500FC88B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE339D8F1DA4C7F500FC88B7 /* Project object */;
+}
